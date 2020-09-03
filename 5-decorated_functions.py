@@ -2,7 +2,7 @@ from decorators import world, kanye, twice_with_args, fun_with_return
 
 
 # The decorator "kayne" can be used to modify what is printed before a function
-# runs. In this case, we call say_whee with the kanye modifications.
+# runs. In this case, we call thank_you with the kanye modifications.
 @kanye
 def thank_you():
     print("Thanks a lot.")
